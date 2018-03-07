@@ -18,5 +18,4 @@ from dataapp import views
 
 urlpatterns = [
     url(r'^$', views.home, name='home'),
-    url(r'^', views.others, name='othes'),
 ]
