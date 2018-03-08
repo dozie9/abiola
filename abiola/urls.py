@@ -21,4 +21,4 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('dataapp.urls')),
-] + static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS)
+]
