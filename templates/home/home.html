@@ -4,21 +4,11 @@
 
 {% block content %}
 <section class="homepage" style="min-height: 312px;">
-    <div class="top-block" style="background-image: url({% static 'images/homepage-image.png' %});">
+    <div class="top-block" style="background-image: url({% static 'images/healthc-are-pc.png' %});">
 
         <div class="container">
             <div class="b-left">
                 <h1>Personalized Health care. Personalized Medicines.</h1>
-                <a href="#" class="open-popup bg-filled-blue button">See Machine Healthcare in action</a>
-                <div class="watch-v transition">
-                    <div class="img-wrap">
-                        <img src="{% static 'images/video-play-2.svg' %}" alt="Watch the video">
-                    </div>
-                    <div class="video-wrap">
-                        <span class="wistia_embed wistia_async_6ze1bnspv7 popover=true popoverContent=link wistia_embed_initialized" style="display:inline" id="wistia-6ze1bnspv7-1">
-                            <div id="wistia_30.thumb_container" class="wistia_click_to_play" style="position: relative; display: inline;">
-                            <a href="#">Watch the video</a></div>
-                        </span>                    </div></div>
                 </div>
             </div>
         </div>
@@ -26,7 +16,7 @@
         <div class="roles">
             <style>
                 .home .roles .aux-bg:before {
-                    background-image: url({% static 'images/homepage-image.png' %});
+                    background-image: url({% static 'images/healthcare1.jpg' %});
                 }
             </style>
             <div class="aux-bg" style="background-size: auto 664px;">
@@ -66,6 +56,21 @@ Healthcare data is growing across the industry, whether it is at a large hospita
 machine.healthcare can help your organization unleash the power of and utilize the data you currently have, and work with you towards a better future in patient care by capitalizing on the insights data can provide
                     </p>
                 </div>
+
+            <div class="video-wrap">
+                <a href="#" class="open-popup bg-filled-blue button">See Machine Healthcare in action</a>
+                        <div class="watch-v transition">
+                    <div class="img-wrap">
+                        <img src="{% static 'images/black-video-play-2.svg' %}" alt="Watch the video">
+                    </div>
+                    <div class="video-wrap">
+                        <span class="wistia_embed wistia_async_6ze1bnspv7 popover=true popoverContent=link wistia_embed_initialized" style="display:inline" id="wistia-6ze1bnspv7-1">
+                            <div id="wistia_30.thumb_container" class="wistia_click_to_play" style="position: relative; display: inline;">
+                            <a href="#" style="color: black">Watch the video</a></div>
+                        </span>                    </div>
+                </div>
+            </div>
+
 
     </div>
     <div class="news-quotes">
@@ -195,34 +200,32 @@ machine.healthcare can help your organization unleash the power of and utilize t
 
 	    <div class="service-info">
         <div class="container thin">
-            <h2>What is machine.healthcare?</h2>
-			                <div class="text-block">
-					<p>machine.healthcare is a healthcare technology start-up that is focused on empowering organizations data by using cutting edge technology tools to analyze and report back information that is useful and understandable. The machine.healthcare platform links integrated data sources in a secure, governed and private fashion. The platform is customizable to the needs of your organization.
-                            </p></div>
+            <h2>Components of machine.healthcare</h2>
+			                
 						                <div class="flow-block">
 					                        <div class="flow-item">
                             <div class="img-holder">
                                 <img src="{% static 'images/si-use-cases.svg' %}">
                             </div>
-                            <p>Patient Healthcare</p>
-                        </div>
+                            <p><strong>Patient Healthcare</strong></p>
+                                                </div>
 					                        <div class="flow-item">
                             <div class="img-holder">
                                 <img src="{% static 'images/si-execution.svg' %}">
                             </div>
-                            <p>Blockchain/Machine Learning</p>
-                        </div>
+                            <p><strong>Blockchain</strong></p>
+                                            </div>
 					                        <div class="flow-item">
                             <div class="img-holder">
                                 <img src="{% static 'images/si-data-science.svg' %}">
                             </div>
-                            <p>Artificial Intelligence</p>
+                            <p>Machine Learning</p>
                         </div>
 					                </div>
 						        </div>
         <div class="container">
 			            <a href="#" class="open-popup bg-filled-blue button" data-type="AI Services">
-				Request more information            </a>
+				Learn More            </a>
         </div>
     </div>
 
@@ -230,8 +233,8 @@ machine.healthcare can help your organization unleash the power of and utilize t
 
 	<div class="mbp">
     <div class="container" style="color: white">
-        <h2>Contact Us</h2>
-        <p>We will love to hear from you</p>
+        <p>Want to learn more?</p>
+        <h2>Contact Us?</h2>
         <form class="form-horizontal">
             <div class="form-group">
                 <label for="firstname" class="col-sm-2 control-label">First Name:</label>
@@ -273,12 +276,13 @@ machine.healthcare can help your organization unleash the power of and utilize t
                 <label for="lastname" class="col-sm-2 control-label">Additional Information and Questions:</label>
                 <div class="col-sm-10">
                     <textarea type="text" rows="10" class="form-control" id="lastname">
-
                     </textarea>
                 </div>
             </div>
+            <button type="submit" class="open-popup bg-filled-blue button">Submit</button>
         </form>
     </div>
+        </div>
     <script type="text/javascript">
 
 
